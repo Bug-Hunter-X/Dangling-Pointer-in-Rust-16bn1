@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating a dangling pointer to a vector.  The example shows how modifying the vector via a raw pointer after its scope ends can lead to undefined behavior and program crashes. The solution showcases a safe alternative using safe Rust patterns.
